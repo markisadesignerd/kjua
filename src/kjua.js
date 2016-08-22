@@ -1,3 +1,5 @@
+require('babel-polyfill');
+
 const {createCanvas, canvasToImg, dpr} = require('./lib/dom');
 const defaults = require('./lib/defaults');
 const qrcode = require('./lib/qrcode');
